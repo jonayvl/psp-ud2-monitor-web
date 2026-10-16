@@ -1,8 +1,31 @@
-Para realizar las peticiones HTTP se utilizará la librería externa requests. Comprobar que la versión existe.
+## Instalación de dependencias
 
+El proyecto utiliza la librería externa **`requests`** para realizar peticiones HTTP y comprobar el estado de los servicios web. Es necesario tenerla instalada antes de ejecutar el programa.
+
+### 1. Comprobar si está instalada
+
+Abre una terminal y ejecuta:
+
+```powershell
 py -m pip show requests
+```
 
-Si no la tienes instalada:
+Si aparece información sobre el paquete, ya está instalado.
+
+### 2. Instalar la dependencia
+
+Si no está instalada, ejecuta:
+
+```powershell
 py -m pip install requests
-Documentación oficial de Requests:
-https://requests.readthedocs.io/
+```
+
+También se pueden instalar las dependencias del proyecto mediante el archivo `requirements.txt`, situado en la raíz del repositorio:
+
+```powershell
+py -m pip install -r requirements.txt
+```
+
+### 3. Documentación oficial
+
+Para consultar las funciones y opciones de la librería, visita la [documentación oficial de Requests](https://requests.readthedocs.io/).
