@@ -1,0 +1,8 @@
+Para realizar las peticiones HTTP se utilizará la librería externa requests. Comprobar que la versión existe.
+
+py -m pip show requests
+
+Si no la tienes instalada:
+py -m pip install requests
+Documentación oficial de Requests:
+https://requests.readthedocs.io/
